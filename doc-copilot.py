@@ -26,7 +26,7 @@ from langchain.vectorstores import Chroma
 from langchain.text_splitter import NLTKTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
 # from langchain.schema import Document
-#import sagemaker
+# import sagemaker
 
 from langchain import SagemakerEndpoint
 from langchain.llms.sagemaker_endpoint import LLMContentHandler
@@ -42,9 +42,9 @@ secret_access_key = "YOUR-ACCESS-KEY" # st.secrets["secret_access_key"]
 region = "us-east-1"
 
 # files
-filename = "amazon-sec-demo.pdf" 
-file = "../doc_sample/amazon-sec-demo.pdf" # "../doc_sample/grant-deed.pdf"
-file2 = "s3://genai-bucket/amazon-sec-demo.pdf" # "../doc_sample/genai-demo-doc.pdf" #st.secrets["file"]
+filename = "amazon-sec-2.pdf" 
+file = "../doc_sample/amazon-sec-2.pdf" # "../doc_sample/grant-deed.pdf"
+file2 = "s3://genai-bucket/amazon-sec-2.pdf" # "../doc_sample/genai-demo-doc.pdf" #st.secrets["file"]
 idp_logo = "idp-logo.png"
 
 # boto3 clients
@@ -52,7 +52,8 @@ s3=boto3.client('s3')
 textract = boto3.client('textract', region_name=region)
 
 newline, bold, unbold = '\n', '\033[1m', '\033[0m'
-summarization_endpoint_name = 'jumpstart-dft-hf-summarization-distilbart-xsum-1-1'
+summarization_endpoint_name = 'sagemaker-soln-documents--huggingface-t-2023-07-12-18-15-08-093' # 'jumpstart-dft-hf-summarization-distilbart-xsum-1-1'
+qa_endpoint_name = 'sagemaker-soln-documents--huggingface-t-2023-07-12-18-15-08-093' # jumpstart-dft-hf-text2text-flan-t5-xl
 
 # Custom SageMaker Endpoint LangChain LLM class
 class QAContentHandler(LLMContentHandler):
@@ -163,10 +164,17 @@ def query_endpoint_with_json_payload(endpoint_name, encoded_json):
     return response
 
 
-def parse_response(query_response):
-    model_predictions = json.loads(query_response['Body'].read())
-    generated_text = model_predictions['generated_text']
-    return generated_text
+# jumpstart-dft-hf-text2text-flan-t5-xl
+#def parse_response(query_response):
+#    model_predictions = json.loads(query_response['Body'].read())
+#    generated_text = model_predictions['generated_text']
+#    return generated_text"""
+
+
+# jumpstart-dft-hf-summarization-distilbart-xsum-1-1
+def parse_response(response):
+    model_predictions = json.loads(response['Body'].read())
+    return model_predictions['summary_text']
 
 
 def parse_response_multiple_texts(query_response):
@@ -307,7 +315,7 @@ question = st.text_input('Enter your question here')
 
 if len(question) > 0:
     embeddings = HuggingFaceEmbeddings()
-    loader = S3DirectoryLoader(data_bucket, prefix='grant-deed.pdf')
+    loader = S3DirectoryLoader(data_bucket, prefix=filename)
 
     # Permissions issue
     docs = loader.load() 
@@ -335,7 +343,6 @@ if len(question) > 0:
 
     prompt=PromptTemplate(input_variables=["document", "question"], 
                                                    template=prompt_template)
-    qa_endpoint_name = 'jumpstart-dft-hf-text2text-flan-t5-xl'
 
     qa_chain = LLMChain(
         llm=SagemakerEndpoint(
