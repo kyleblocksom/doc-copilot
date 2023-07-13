@@ -25,7 +25,7 @@ from langchain.document_loaders import S3DirectoryLoader
 from langchain.vectorstores import Chroma
 from langchain.text_splitter import NLTKTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.schema import Document
+# from langchain.schema import Document
 #import sagemaker
 
 from langchain import SagemakerEndpoint
@@ -42,9 +42,9 @@ secret_access_key = "YOUR-ACCESS-KEY" # st.secrets["secret_access_key"]
 region = "us-east-1"
 
 # files
-# file = st.secrets["file"]
-file = "../doc_sample/grant-deed.pdf"
-file2 = "s3://genai-bucket/grant-deed.pdf" # "../doc_sample/genai-demo-doc.pdf" #st.secrets["file"]
+filename = "amazon-sec-demo.pdf" 
+file = "../doc_sample/amazon-sec-demo.pdf" # "../doc_sample/grant-deed.pdf"
+file2 = "s3://genai-bucket/amazon-sec-demo.pdf" # "../doc_sample/genai-demo-doc.pdf" #st.secrets["file"]
 idp_logo = "idp-logo.png"
 
 # boto3 clients
@@ -52,8 +52,7 @@ s3=boto3.client('s3')
 textract = boto3.client('textract', region_name=region)
 
 newline, bold, unbold = '\n', '\033[1m', '\033[0m'
-endpoint_name = 'jumpstart-dft-hf-text2text-flan-t5-xl'
-
+summarization_endpoint_name = 'jumpstart-dft-hf-summarization-distilbart-xsum-1-1'
 
 # Custom SageMaker Endpoint LangChain LLM class
 class QAContentHandler(LLMContentHandler):
@@ -119,7 +118,7 @@ def isJobComplete(jobId):
     print("Job status: {}".format(status))
 
     while(status == "IN_PROGRESS"):
-        time.sleep(5)
+        time.sleep(3)
         response = textract.get_document_text_detection(JobId=jobId)
         status = response["JobStatus"]
         print("Job status: {}".format(status))
@@ -150,13 +149,13 @@ def getJobResults(jobId):
     return pages
 
 
-def query_endpoint(encoded_text):
+def query_endpoint(endpoint_name, encoded_text):
     client = session.client('runtime.sagemaker')
     response = client.invoke_endpoint(EndpointName=endpoint_name, ContentType='application/x-text', Body=encoded_text)
     return response
 
 
-def query_endpoint_with_json_payload(encoded_json, endpoint_name):
+def query_endpoint_with_json_payload(endpoint_name, encoded_json):
     client = session.client("runtime.sagemaker")
     response = client.invoke_endpoint(
         EndpointName=endpoint_name, ContentType="application/json", Body=encoded_json
@@ -176,7 +175,8 @@ def parse_response_multiple_texts(query_response):
     return generated_text
 
 
-# Main
+# --- Main ---
+
 
 session = boto3.session.Session(aws_access_key_id=access_key_id, aws_secret_access_key=secret_access_key, region_name=region)
 textract = session.client('textract', region_name=region)
@@ -202,9 +202,8 @@ st.subheader('Document Classification')
 
 if st.button('Classify the Sample'):
     text = []
-    documentName = "grant-deed.pdf"
 
-    jobId = startJob(data_bucket, documentName)
+    jobId = startJob(data_bucket, filename)
     if(isJobComplete(jobId)):
         response = getJobResults(jobId)
 
@@ -226,7 +225,7 @@ if st.button('Classify the Sample'):
     prompt_text = "Given the following text, what is the document type for this text? %s"%(textract_text)
     comprehend_txt = textract_text
     for text in [prompt_text]:
-        query_response = query_endpoint(json.dumps(text).encode('utf-8'))
+        query_response = query_endpoint(summarization_endpoint_name, json.dumps(text).encode('utf-8'))
         generated_text = parse_response(query_response)
         
         st.write("✅ **Document Label:**",generated_text)
@@ -275,9 +274,8 @@ st.subheader('Document Summarization')
 
 if st.button('Summarize'):
     text = []
-    documentName = "grant-deed.pdf"
 
-    jobId = startJob(data_bucket, documentName)
+    jobId = startJob(data_bucket, filename)
     print("Started job with id: {}".format(jobId))
     if(isJobComplete(jobId)):
         response = getJobResults(jobId)
@@ -292,11 +290,11 @@ if st.button('Summarize'):
   
     txt = st.text_area('Text to analyze', textract_text)
     print('Text to analyze = ' + textract_text)
-    query_response = query_endpoint(json.dumps(textract_text).encode('utf-8'))
+    query_response = query_endpoint(summarization_endpoint_name, json.dumps(textract_text).encode('utf-8'))
     summary_text = parse_response(query_response)
     print('Summary text = ' + summary_text)
 
-    time.sleep(5)
+    #time.sleep(5)
     st.write("✅ **Summary:**",summary_text)
 
 if not "valid_inputs_received" in st.session_state:
@@ -305,13 +303,14 @@ if not "valid_inputs_received" in st.session_state:
 # Document Q & A 
 st.subheader('Document Question & Answering')
 
-if st.text_input('Enter your question here'):
+question = st.text_input('Enter your question here')
 
-    question = st.text_input('Enter your question here')
-    prefix ='llm/sample'
+if len(question) > 0:
     embeddings = HuggingFaceEmbeddings()
-    loader = S3DirectoryLoader(data_bucket, prefix=prefix)
-    docs = loader.load()
+    loader = S3DirectoryLoader(data_bucket, prefix='grant-deed.pdf')
+
+    # Permissions issue
+    docs = loader.load() 
     text_splitter = NLTKTextSplitter(chunk_size=550)
     texts = text_splitter.split_documents(docs)
     vectordb = Chroma.from_documents(texts, embeddings)
@@ -336,10 +335,11 @@ if st.text_input('Enter your question here'):
 
     prompt=PromptTemplate(input_variables=["document", "question"], 
                                                    template=prompt_template)
+    qa_endpoint_name = 'jumpstart-dft-hf-text2text-flan-t5-xl'
 
     qa_chain = LLMChain(
         llm=SagemakerEndpoint(
-            endpoint_name=endpoint_name, # replace with your endpoint name if needed
+            endpoint_name=qa_endpoint_name, # replace with your endpoint name if needed
             region_name=region,
             model_kwargs=FLAN_T5_PARAMETERS,
             content_handler=qa_content_handler
@@ -357,5 +357,5 @@ if st.text_input('Enter your question here'):
         'question': question
     })
 
-    time.sleep(5)
+    #time.sleep(5)
     st.write("✅ **Answer:**",answer)

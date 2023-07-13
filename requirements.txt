@@ -14,3 +14,4 @@ pdfplumber
 unstructured
 chromadb
 sentence-transformers
+unstructured_inference
