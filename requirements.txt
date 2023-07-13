@@ -1,0 +1,16 @@
+streamlit
+spacy
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
+boto3==1.26.117
+amazon-textract-caller==0.0.28
+amazon-textract-geofinder==0.0.6
+amazon-textract-helper==0.0.34
+amazon-textract-prettyprinter==0.1.0
+amazon-textract-response-parser==0.1.43
+pandas==1.4.3
+langchain==0.0.200
+sagemaker
+pdfplumber
+unstructured
+chromadb
+sentence-transformers
