@@ -1,0 +1,51 @@
+through the pandemic the same way without the dedication and extraordinary efforts shown by our teams
+during this period, and I’m eternally grateful.
+It’s not normal for a company of any size to be able to respond to something as discontinuous and
+unpredictable as this pandemic turned out to be. What is it about Amazon that made it possible for us to do
+so? It’s because we weren’t starting from a standing start. We had been iterating on and remaking our
+fulfillment capabilities for nearly two decades. In every business we pursue, we’re constantly experimenting
+and inventing. We’re divinely discontented with customer experiences, whether they’re our own or not. We
+believe these customer experiences can always be better, and we strive to make customers’ lives better and
+easier every day. The beauty of this mission is that you never run out of runway; customers always want better,
+and our job is both to listen to their feedback and to imagine what else is possible and invent on their
+behalf.
+People often assume that the game-changing inventions they admire just pop out of somebody’s head, a
+light bulb goes off, a team executes to that idea, and presto—you have a new invention that’s a breakaway
+success for a long time. That’s rarely, if ever, how it happens. One of the lesser known facts about innovative
+companies like Amazon is that they are relentlessly debating, re-defining, tinkering, iterating, and
+experimenting to take the seed of a big idea and make it into something that resonates with customers and
+meaningfully changes their customer experience over a long period of time.
+Let me give you some Amazon examples.
+Our Fulfillment Network: Going back to the pandemic, there’s no way we could have started working on
+our fulfillment network in March 2020 and satisfied anything close to what our customers needed. We’d been
+innovating in our fulfillment network for 20 years, constantly trying to shorten the time to get items to
+customers. In the early 2000s, it took us an average of 18 hours to get an item through our fulfillment centers
+and on the right truck for shipment. Now, it takes us two. To deliver as reliably and cost-effectively as we
+desire, and to serve Amazon Prime members expecting shipments in a couple of days, we spent years building
+out an expansive set of fulfillment centers, a substantial logistics and transportation capability, and
+reconfigured how we did virtually everything in our facilities. For perspective, in 2004, we had seven
+fulfillment centers in the U.S. and four in other parts of the world, and we hadn’t yet added delivery stations,
+which connect our fulfillment and sortation centers to the last-mile delivery vans you see driving around
+your neighborhood. Fast forward to the end of 2021, we had 253 fulfillment centers, 110 sortation centers,
+and 467 delivery stations in North America, with an additional 157 fulfillment centers, 58 sortation centers,
+and 588 delivery stations across the globe. Our delivery network grew to more than 260,000 drivers
+worldwide, and our Amazon Air cargo fleet has more than 100 aircraft. This has represented a capital
+investment of over $100 billion and countless iterations and small process improvements by over a million
+Amazonians in the last decade and a half.
+Ironically, just before COVID started, we’d made the decision to invest billions of incremental dollars over
+several years to deliver an increasing number of Prime shipments in one day. This initiative was slowed by the
+challenges of the pandemic, but we’ve since resumed our focus here. Delivering a substantial amount of
+shipments in one day is hard (especially across the millions of items that we offer) and initially expensive as
+we build out the infrastructure to scale this efficiently. But, we believe our over 200 million Prime customers,
+who will tell you very clearly that faster is almost always better, will love this. So, this capability to ship
+millions of items within a couple days (and increasingly one day) was not from one aha moment and not
+developed in a year or two. It’s been hard-earned by putting ourselves in the shoes of our customers, knowing
+what they wanted, organizing Amazonians to work together to invent better solutions, and investing a
+large amount of financial and people resources over 20 years (often well in advance of when it would pay
+out). This type of iterative innovation is never finished and has periodic peaks in investment years, but leads
+to better long-term customer experiences, customer loyalty, and returns for our shareholders.
+AWS: As we were defining AWS and working backwards on the services we thought customers wanted, we
+kept triggering one of the biggest tensions in product development—where to draw the line on functionality in
+V1. One early meeting in particular—for our core compute service called Elastic Compute Cloud (“EC2”)—
+was scheduled for an hour, and took three, as we animatedly debated whether we could launch a compute
+service without an accompanying persistent block storage companion (a form of network attached storage).
