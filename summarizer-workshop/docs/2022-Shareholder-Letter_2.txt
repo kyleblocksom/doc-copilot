@@ -1,0 +1,53 @@
+Over the last several months, we took a deep look across the company, business by business, invention by
+invention, and asked ourselves whether we had conviction about each initiative’s long-term potential to drive
+enough revenue, operating income, free cash flow, and return on invested capital. In some cases, it led to us
+shuttering certain businesses. For instance, we stopped pursuing physical store concepts like our Bookstores
+and 4 Star stores, closed our Amazon Fabric and Amazon Care efforts, and moved on from some newer
+devices where we didn’t see a path to meaningful returns. In other cases, we looked at some programs that
+weren’t producing the returns we’d hoped (e.g. free shipping for all online grocery orders over $35) and
+amended them. We also reprioritized where to spend our resources, which ultimately led to the hard decision
+to eliminate 27,000 corporate roles. There are a number of other changes that we’ve made over the last
+several months to streamline our overall costs, and like most leadership teams, we’ll continue to evaluate
+what we’re seeing in our business and proceed adaptively.
+We also looked hard at how we were working together as a team and asked our corporate employees to come
+back to the office at least three days a week, beginning in May. During the pandemic, our employees rallied to
+get work done from home and did everything possible to keep up with the unexpected circumstances that
+presented themselves. It was impressive and I’m proud of the way our collective team came together to
+overcome unprecedented challenges for our customers, communities, and business. But, we don’t think it’s the
+best long-term approach. We’ve become convinced that collaborating and inventing is easier and more
+effective when we’re working together and learning from one another in person. The energy and riffing on
+one another’s ideas happen more freely, and many of the best Amazon inventions have had their breakthrough
+moments from people staying behind after a meeting and working through ideas on a whiteboard, or
+continuing the conversation on the walk back from a meeting, or just popping by a teammate’s office later
+that day with another thought. Invention is often messy. It wanders and meanders and marinates.
+Serendipitous interactions help it, and there are more of those in-person than virtually. It’s also significantly
+easier to learn, model, practice, and strengthen our culture when we’re in the office together most of the
+time and surrounded by our colleagues. Innovation and our unique culture have been incredibly important
+in our first 29 years as a company, and I expect it will be comparably so in the next 29.
+A critical challenge we’ve continued to tackle is the rising cost to serve in our Stores fulfillment network (i.e.
+the cost to get a product from Amazon to a customer)—and we’ve made several changes that we believe will
+meaningfully improve our fulfillment costs and speed of delivery.
+During the early part of the pandemic, with many physical stores shut down, our consumer business grew
+at an extraordinary clip, with annual revenue increasing from $245B in 2019 to $434B in 2022. This meant that
+we had to double the fulfillment center footprint that we’d built over the prior 25 years and substantially
+accelerate building a last-mile transportation network that’s now the size of UPS (along with a new sortation
+center network to assist with efficiency and speed when items needed to traverse long distances)—all in the
+span of about two years. This was no easy feat, and hundreds of thousands of Amazonians worked very hard
+to make this happen. However, not surprisingly, with that rate and scale of change, there was a lot of
+optimization needed to yield the intended productivity. Over the last several months, we’ve scrutinized every
+process path in our fulfillment centers and transportation network and redesigned scores of processes and
+mechanisms, resulting in steady productivity gains and cost reductions over the last few quarters. There’s
+more work to do, but we’re pleased with our trajectory and the meaningful upside in front of us.
+We also took this occasion to make larger structural changes that set us up better to deliver lower costs and
+faster speed for many years to come. A good example was reevaluating how our US fulfillment network was
+organized. Until recently, Amazon operated one national US fulfillment network that distributed inventory
+from fulfillment centers spread across the entire country. If a local fulfillment center didn’t have the product a
+customer ordered, we’d end up shipping it from other parts of the country, costing us more and increasing
+delivery times. This challenge became more pronounced as our fulfillment network expanded to hundreds of
+additional nodes over the last few years, distributing inventory across more locations and increasing the
+complexity of connecting the fulfillment center and delivery station nodes efficiently. Last year, we started
+rearchitecting our inventory placement strategy and leveraging our larger fulfillment center footprint to move
+from a national fulfillment network to a regionalized network model. We made significant internal changes
+(e.g. placement and logistics software, processes, physical operations) to create eight interconnected regions in
+smaller geographic areas. Each of these regions has broad, relevant selection to operate in a largely self-
+sufficient way, while still being able to ship nationally when necessary. Some of the most meaningful and hard

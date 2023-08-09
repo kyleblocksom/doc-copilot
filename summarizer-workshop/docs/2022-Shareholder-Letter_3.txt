@@ -1,0 +1,54 @@
+work came from optimizing the connections between this large amount of infrastructure. We also continue
+to improve our advanced machine learning algorithms to better predict what customers in various parts of the
+country will need so that we have the right inventory in the right regions at the right time. We’ve recently
+completed this regional roll out and like the early results. Shorter travel distances mean lower cost to serve,
+less impact on the environment, and customers getting their orders faster. On the latter, we’re excited about
+seeing more next day and same-day deliveries, and we’re on track to have our fastest Prime delivery speeds
+ever in 2023. Overall, we remain confident about our plans to lower costs, reduce delivery times, and build a
+meaningfully larger retail business with healthy operating margins.
+AWS has an $85B annualized revenue run rate, is still early in its adoption curve, but at a juncture where it’s
+critical to stay focused on what matters most to customers over the long-haul. Despite growing 29% year-over-
+year (“YoY”) in 2022 on a $62B revenue base, AWS faces short-term headwinds right now as companies
+are being more cautious in spending given the challenging, current macroeconomic conditions. While some
+companies might obsess over how they could extract as much money from customers as possible in these tight
+times, it’s neither what customers want nor best for customers in the long term, so we’re taking a different
+tack. One of the many advantages of AWS and cloud computing is that when your business grows, you can
+seamlessly scale up; and conversely, if your business contracts, you can choose to give us back that capacity
+and cease paying for it. This elasticity is unique to the cloud, and doesn’t exist when you’ve already made
+expensive capital investments in your own on-premises datacenters, servers, and networking gear. In AWS,
+like all our businesses, we’re not trying to optimize for any one quarter or year. We’re trying to build customer
+relationships (and a business) that outlast all of us; and as a result, our AWS sales and support teams are
+spending much of their time helping customers optimize their AWS spend so they can better weather this
+uncertain economy. Many of these AWS customers tell us that they’re not cost-cutting as much as cost-
+optimizing so they can take their resources and apply them to emerging and inventive new customer
+experiences they’re planning. Customers have appreciated this customer-focused, long-term approach, and
+we think it’ll bode well for both customers and AWS.
+While these short-term headwinds soften our growth rate, we like a lot of the fundamentals that we’re seeing
+in AWS. Our new customer pipeline is robust, as are our active migrations. Many companies use
+discontinuous periods like this to step back and determine what they strategically want to change, and we
+find an increasing number of enterprises opting out of managing their own infrastructure, and preferring to
+move to AWS to enjoy the agility, innovation, cost-efficiency, and security benefits. And most importantly
+for customers, AWS continues to deliver new capabilities rapidly (over 3,300 new features and services launched
+in 2022), and invest in long-term inventions that change what’s possible.
+Chip development is a good example. In last year’s letter, I mentioned the investment we were making in our
+general-purpose CPU processors named Graviton. Graviton2-based compute instances deliver up to 40%
+better price-performance than the comparable latest generation x86-based instances; and in 2022, we delivered
+our Graviton3 chips, providing 25% better performance than the Graviton2 processors. Further, as machine
+learning adoption has continued to accelerate, customers have yearned for lower-cost GPUs (the chips
+most commonly used for machine learning). AWS started investing years ago in these specialized chips for
+machine learning training and inference (inferences are the predictions or answers that a machine learning
+model provides). We delivered our first training chip in 2022 (“Trainium”); and for the most common
+machine learning models, Trainium-based instances are up to 140% faster than GPU-based instances at up
+to 70% lower cost. Most companies are still in the training stage, but as they develop models that graduate to
+large-scale production, they’ll find that most of the cost is in inference because models are trained
+periodically whereas inferences are happening all the time as their associated application is being exercised.
+We launched our first inference chips (“Inferentia”) in 2019, and they have saved companies like Amazon over
+a hundred million dollars in capital expense already. Our Inferentia2 chip, which just launched, offers up
+to four times higher throughput and ten times lower latency than our first Inferentia processor. With the
+enormous upcoming growth in machine learning, customers will be able to get a lot more done with AWS’s
+training and inference chips at a significantly lower cost. We’re not close to being done innovating here,
+and this long-term investment should prove fruitful for both customers and AWS. AWS is still in the early
+stages of its evolution, and has a chance for unusual growth in the next decade.
+Similarly high potential, Amazon’s Advertising business is uniquely effective for brands, which is part of why it
+continues to grow at a brisk clip. Akin to physical retailers’ advertising businesses selling shelf space, end-
+caps, and placement in their circulars, our sponsored products and brands offerings have been an integral part

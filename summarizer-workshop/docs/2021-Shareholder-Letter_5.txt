@@ -1,0 +1,47 @@
+they’re moving in a dangerous way, improved shoes to provide better toe protection, training programs on
+body mechanics, wellness, and safety practices). But, we still have a ways to go, and we’ll approach it like we
+do other customer experiences—we’ll keep learning, inventing, and iterating until we have more
+transformational results. We won’t be satisfied until we do.
+Similarly, at our scale, we have a significant carbon footprint. It’s a big part of why we created The Climate
+Pledge a few years ago (a pledge to be net-zero carbon by 2040, ten years ahead of the Paris Agreement). We’re
+making significant progress on this effort (we’re committed to powering our operations with 100% renewable
+energy by 2025—five years ahead of our original target of 2030, we have ordered over 100,000 electric
+vans to deliver packages, and have over 300 companies who’ve joined us in The Climate Pledge). But, we
+have a different challenge than most companies given the diversity and intensity of our operations (including
+shipping billions of packages per year). We’re committed to the challenge, but it will take relentless invention.
+We also are trying to increase the amount of affordable housing in the communities in which we have a
+large presence. Our more than $2 billion Housing Equity Fund that we started a year ago has already allocated
+$1.2 billion toward affordable housing initiatives in the areas around Washington state’s Puget Sound
+region, Arlington (Virginia), and Nashville (Tennessee).
+A final quick example is Kuiper, our low Earth orbit satellite network that we’re spending over $10 billion
+to build in the next several years. Kuiper will serve customers with minimal to no fixed broadband connectivity,
+changing access to information and resources for many communities (analysts estimate approximately 300-
+400 million customers globally are in this category). We’re optimistic that there is a pretty good business model
+for us too, but we’ll see—and it’s a real game changer for underserved families and businesses that will
+unfold over many years as we keep evolving its capabilities.
+This type of iterative innovation is pervasive across every team at Amazon. I could have given comparable
+examples in Advertising, Grocery, Gaming, Amazon Music, Amazon Care (our telemedicine offering), or
+Pharmacy, to name a few. All of these stories are still being written as we rapidly experiment, learn, and
+continue to try to make our customer experience better every day.
+If this approach sounds appealing, a natural question is what’s required to get good at it? It’s easier said
+than done, but here are some components that have helped us:
+1/ Hire the Right Builders: We disproportionately index in hiring builders. We think of builders as people
+who like to invent, who look at customer experiences, dissect what doesn’t work well about them, and seek
+to reinvent them. We want people who keep asking why can’t it be done? We want people who like to
+experiment and tinker, and who realize launch is the starting line, not the finish line.
+2/ Organize Builders into Teams That Are as Separable and Autonomous as Possible: It’s hard for teams to be
+deep in what customers care about in multiple areas. It’s also hard to spend enough time on the new
+initiatives when there’s resource contention with the more mature businesses; the surer bets usually win out.
+Single-threaded teams will know their customers’ needs better, spend all their waking work hours inventing
+for them, and develop context and tempo to keep iterating quickly.
+3/ Give Teams the Right Tools and Permission to Move Fast: Speed is not pre-ordained. It’s a leadership
+choice. It has trade-offs, but you can’t wake up one day and start moving fast. It requires having the right
+tools to experiment and build fast (a major part of why we started AWS), allowing teams to make two-way
+door decisions themselves, and setting an expectation that speed matters. And, it does. Speed is
+disproportionally important to every business at every stage of its evolution. Those that move slower than
+their competitive peers fall away over time.
+4/ You Need Blind Faith, But No False Hope: This is a lyric from one of my favorite Foo Fighters songs
+(“Congregation”). When you invent, you come up with new ideas that people will reject because they haven’t
+been done before (that’s where the blind faith comes in), but it’s also important to step back and make sure
+you have a viable plan that’ll resonate with customers (avoid false hope). We’re lucky that we have builders
+who challenge each other, feedback loops that give us access to customer feedback, and a product

@@ -1,0 +1,54 @@
+month flat fee, enables Prime members to get as many of the eligible prescription medications as they need
+for dozens of common conditions, like high blood pressure, acid reflux, and anxiety. However, our customers
+have continued to express a strong desire for Amazon to provide a better alternative to the inefficient and
+unsatisfying broader healthcare experience. We decided to start with primary care as it’s a prevalent first stop
+in the patient journey. We evaluated and studied the existing landscape extensively, including some early
+Amazon experiments like Amazon Care. During this process, we identified One Medical’s patient-focused
+experience as an excellent foundation upon which to build our future business; and in July 2022, we announced
+our acquisition of One Medical. There are several elements that customers love about One Medical. It has
+a fantastic digital app that makes it easy for patients to discuss issues with a medical practitioner via chat or
+video conference. If a physical visit is required, One Medical has offices in cities across the US where
+patients can book same or next day appointments. One Medical has relationships with specialty physicians
+in each of its cities and works closely with local hospital systems to make seeing specialists easy, so One
+Medical members can quickly access these resources when needed. Going forward, we strongly believe
+that One Medical and Amazon will continue to innovate together to change what primary care will look like
+for customers.
+Kuiper is another example of Amazon innovating for customers over the long term in an area where there’s
+high customer need. Our vision for Kuiper is to create a low-Earth orbit satellite system to deliver high-quality
+broadband internet service to places around the world that don’t currently have it. There are hundreds of
+millions of households and businesses who don’t have reliable access to the internet. Imagine what they’ll be
+able to do with reliable connectivity, from people taking online education courses, using financial services,
+starting their own businesses, doing their shopping, enjoying entertainment, to businesses and governments
+improving their coverage, efficiency, and operations. Kuiper will deliver not only accessibility, but
+affordability. Our teams have developed low-cost antennas (i.e. customer terminals) that will lower the
+barriers to access. We recently unveiled the new terminals that will communicate with the satellites passing
+overhead, and we expect to be able to produce our standard residential version for less than $400 each. They’re
+small: 11 inches square, 1 inch thick, and weigh less than 5 pounds without their mounting bracket, but
+they deliver speeds up to 400 megabits per second. And they’re powered by Amazon-designed baseband chips.
+We’re preparing to launch two prototype satellites to test the entire end-to-end communications network
+this year, and plan to be in beta with commercial customers in 2024. The customer reaction to what we’ve
+shared thus far about Kuiper has been very positive, and we believe Kuiper represents a very large potential
+opportunity for Amazon. It also shares several similarities to AWS in that it’s capital intensive at the start,
+but has a large prospective consumer, enterprise, and government customer base, significant revenue and
+operating profit potential, and relatively few companies with the technical and inventive aptitude, as well as
+the investment hypothesis to go after it.
+One final investment area that I’ll mention, that’s core to setting Amazon up to invent in every area of our
+business for many decades to come, and where we’re investing heavily is Large Language Models (“LLMs”)
+and Generative AI. Machine learning has been a technology with high promise for several decades, but it’s
+only been the last five to ten years that it’s started to be used more pervasively by companies. This shift was
+driven by several factors, including access to higher volumes of compute capacity at lower prices than was ever
+available. Amazon has been using machine learning extensively for 25 years, employing it in everything
+from personalized ecommerce recommendations, to fulfillment center pick paths, to drones for Prime Air,
+to Alexa, to the many machine learning services AWS offers (where AWS has the broadest machine learning
+functionality and customer base of any cloud provider). More recently, a newer form of machine learning,
+called Generative AI, has burst onto the scene and promises to significantly accelerate machine learning
+adoption. Generative AI is based on very Large Language Models (trained on up to hundreds of billions
+of parameters, and growing), across expansive datasets, and has radically general and broad recall and
+learning capabilities. We have been working on our own LLMs for a while now, believe it will transform and
+improve virtually every customer experience, and will continue to invest substantially in these models
+across all of our consumer, seller, brand, and creator experiences. Additionally, as we’ve done for years in
+AWS, we’re democratizing this technology so companies of all sizes can leverage Generative AI. AWS is
+offering the most price-performant machine learning chips in Trainium and Inferentia so small and large
+companies can afford to train and run their LLMs in production. We enable companies to choose from
+various LLMs and build applications with all of the AWS security, privacy and other features that customers
+are accustomed to using. And, we’re delivering applications like AWS’s CodeWhisperer, which revolutionizes

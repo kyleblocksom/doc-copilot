@@ -1,0 +1,52 @@
+Beyond geographic expansion, we’ve been working to expand our customer offerings across some large,
+unique product retail market segments. Grocery is an $800B market segment in the US alone, with the average
+household shopping three to four times per week. Amazon has built a somewhat unusual, but significant
+grocery business over nearly 20 years. Similar to how other mass merchants entered the grocery space in the
+1980s, we began by adding products typically found in supermarket aisles that don’t require temperature
+control such as paper products, canned and boxed food, candy and snacks, pet care, health and personal care,
+and beauty. However, we offer more than three million items compared to a typical supermarket’s 30K for
+the same categories. To date, we’ve also focused on larger pack sizes, given the current cost to serve online
+delivery. While we’re pleased with the size and growth of our grocery business, we aspire to serve more of
+our customers’ grocery needs than we do today. To do so, we need a broader physical store footprint given that
+most of the grocery shopping still happens in physical venues. Whole Foods Market pioneered the natural
+and organic specialty grocery store concept 40 years ago. Today, it’s a large and growing business that continues
+to raise the bar for healthy and sustainable food. Over the past year, we’ve continued to invest in the
+business while also making changes to drive better profitability. Whole Foods is on an encouraging path,
+but to have a larger impact on physical grocery, we must find a mass grocery format that we believe is worth
+expanding broadly. Amazon Fresh is the brand we’ve been experimenting with for a few years, and we’re
+working hard to identify and build the right mass grocery format for Amazon scale. Grocery is a big growth
+opportunity for Amazon.
+Amazon Business is another example of an investment where our ecommerce and logistics capabilities
+position us well to pursue this large market segment. Amazon Business allows businesses, municipalities,
+and organizations to procure products like office supplies and other bulk items easily and at great savings.
+While some areas of the economy have struggled over the past few years, Amazon Business has thrived. Why?
+Because the team has translated what it means to deliver selection, value, and convenience into a business
+procurement setting, constantly listening to and learning from customers, and innovating on their behalf.
+Some people have never heard of Amazon Business, but, our business customers love it. Amazon Business
+launched in 2015 and today drives roughly $35B in annualized gross sales. More than six million active
+customers, including 96 of the global Fortune 100 companies, are enjoying Amazon Business’ one-stop
+shopping, real-time analytics, and broad selection on hundreds of millions of business supplies. We believe
+that we’ve only scratched the surface of what’s possible to date, and plan to keep building the features our
+business customers tell us they need and want.
+While many brands and merchants successfully sell their products on Amazon’s marketplace, there are also
+a large number of brands and sellers who have launched their own direct-to-consumer websites. One of the
+challenges for these merchants is driving conversion from views to purchases. We invented Buy with Prime
+to help with this challenge. Buy with Prime allows third-party brands and sellers to offer their products on
+their own websites to our large Amazon Prime membership, and offer those customers fast, free Prime shipping
+and seamless checkout with their Amazon account. Buy with Prime provides merchants several additional
+benefits, including Amazon handling the product storage, picking, packing, delivery, payment, and any
+returns, all through Amazon Pay and Fulfillment by Amazon. Buy with Prime has recently been made
+available to all US merchants; and so far, Buy with Prime has increased shopper conversion on third-party
+shopping sites by 25% on average. Merchants are excited about converting more sales and fulfilling these
+shipments more easily, Prime members love that they can use their Prime benefits on more destinations,
+and Buy with Prime allows us to improve the shopping experience across more of the web.
+Expanding internationally, pursuing large retail market segments that are still nascent for Amazon, and
+using our unique assets to help merchants sell more effectively on their own websites are somewhat natural
+extensions for us. There are also a few investments we’re making that are further from our core businesses, but
+where we see unique opportunity. In 2003, AWS would have been a classic example. In 2023, Amazon
+Healthcare and Kuiper are potential analogues.
+Our initial efforts in Healthcare began with pharmacy, which felt less like a major departure from ecommerce.
+For years, Amazon customers had asked us when we’d offer them an online pharmacy as their frustrations
+mounted with current providers. Launched in 2020, Amazon Pharmacy is a full-service, online pharmacy that
+offers transparent pricing, easy refills, and savings for Prime members. The business is growing quickly,
+and continues to innovate. An example is Amazon Pharmacy’s recent launch of RxPass, which for a $5 per

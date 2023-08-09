@@ -1,0 +1,32 @@
+development process of working backwards from the customer where having to write a Press Release (to
+flesh out the customer benefits) and a Frequently Asked Questions document (to detail how we’d build it)
+helps us have blind faith without false hope (at least usually).
+5/ Define a Minimum Loveable Product (MLP), and Be Willing to Iterate Fast: Figuring out where to draw
+the line for launch is one of the most difficult decisions teams must make. Often, teams wait too long, and
+insist on too many bells and whistles, before launching. And, they miss the first mover advantage or
+opportunity to build mindshare in fast-moving market segments before well-executing peers get too far
+ahead. The launch product must be good enough that you believe it’ll be loved from the get-go (why we call
+it a “Minimum Loveable Product” vs. a “Minimum Viable Product”), but in newer market segments,
+teams are often better off getting this MLP to customers and iterating quickly thereafter.
+6/ Adopt a Long-term Orientation: We’re sometimes criticized at Amazon for not shutting much down. It’s
+true that we have a longer tolerance for our investments than most companies. But, we know that
+transformational invention takes multiple years, and if you’re making big bets that you believe could
+substantially change customer experience (and your company), you have to be in it for the long-haul or
+you’ll give up too quickly.
+7/ Brace Yourself for Failure: If you invent a lot, you will fail more often than you wish. Nobody likes this
+part, but it comes with the territory. When it’s clear that we’ve launched something that won’t work, we make
+sure we’ve learned from what didn’t go well, and secure great landing places for team members who
+delivered well—or your best people will hesitate to work on new initiatives.
+Albert Einstein is sometimes credited with describing compound interest as the eighth wonder of the world
+(“He who understands it, earns it. He who doesn’t, pays it”). We think of iterative innovation in much the
+same way. Iterative innovation creates magic for customers. Constantly inventing and improving products for
+customers has a compounding effect on the customer experience, and in turn on a business’s prospects.
+Time is your friend when you are compounding gains. Amazon is a big company with some large businesses,
+but it’s still early days for us. We will continue to be insurgent—inventing in businesses that we’re in, in new
+businesses that we’ve yet to launch, and in new ideas that we haven’t even imagined yet. It remains Day 1.
+Sincerely,
+Andy Jassy
+President and Chief Executive Officer
+Amazon.com, Inc.
+P.S. As we have always done, our original 1997 Shareholder Letter follows. What’s written there is as true
+today as it was in 1997.

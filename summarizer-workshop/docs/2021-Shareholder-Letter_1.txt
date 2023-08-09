@@ -1,0 +1,45 @@
+Dear shareholders:
+Over the past 25 years at Amazon, I’ve had the opportunity to write many narratives, emails, letters, and
+keynotes for employees, customers, and partners. But, this is the first time I’ve had the honor of writing our
+annual shareholder letter as CEO of Amazon. Jeff set the bar high on these letters, and I will try to keep
+them worth reading.
+When the pandemic started in early 2020, few people thought it would be as expansive or long-running as
+it’s been. Whatever role Amazon played in the world up to that point became further magnified as most
+physical venues shut down for long periods of time and people spent their days at home. This meant that
+hundreds of millions of people relied on Amazon for PPE, food, clothing, and various other items that
+helped them navigate this unprecedented time. Businesses and governments also had to shift, practically
+overnight, from working with colleagues and technology on-premises to working remotely. AWS played a
+major role in enabling this business continuity. Whether companies saw extraordinary demand spikes, or
+demand diminish quickly with reduced external consumption, the cloud’s elasticity to scale capacity up and
+down quickly, as well as AWS’s unusually broad functionality helped millions of companies adjust to these
+difficult circumstances.
+Our AWS and Consumer businesses have had different demand trajectories during the pandemic. In the
+first year of the pandemic, AWS revenue continued to grow at a rapid clip—30% year over year (“YoY”) in
+2020 on a $35 billion annual revenue base in 2019—but slower than the 37% YoY growth in 2019. This
+was due in part to the uncertainty and slowing demand that so many businesses encountered, but also in
+part to our helping companies optimize their AWS footprint to save money. Concurrently, companies were
+stepping back and determining what they wanted to change coming out of the pandemic. Many concluded
+that they didn’t want to continue managing their technology infrastructure themselves, and made the
+decision to accelerate their move to the cloud. This shift by so many companies (along with the economy
+recovering) helped re-accelerate AWS’s revenue growth to 37% YoY in 2021.
+Conversely, our Consumer revenue grew dramatically in 2020. In 2020, Amazon’s North America and
+International Consumer revenue grew 39% YoY on the very large 2019 revenue base of $245 billion; and,
+this extraordinary growth extended into 2021 with revenue increasing 43% YoY in Q1 2021. These are
+astounding numbers. We realized the equivalent of three years’ forecasted growth in about 15 months.
+As the world opened up again starting in late Q2 2021, and more people ventured out to eat, shop, and travel,
+consumer spending returned to being spread over many more entities. We weren’t sure what to expect in
+2021, but the fact that we continued to grow at double digit rates (with a two-year Consumer compounded
+annual growth rate of 29%) was encouraging as customers appreciated the role Amazon played for them
+during the pandemic, and started using Amazon for a larger amount of their household purchases.
+This growth also created short-term logistics and cost challenges. We spent Amazon’s first 25 years building
+a very large fulfillment network, and then had to double it in the last 24 months to meet customer demand.
+As we were bringing this new capacity online, the labor market tightened considerably, making it challenging
+both to receive all of the inventory our vendors and sellers wanted to send us and to place that inventory
+as close to customers as we typically do. Combined with ocean, air, and trucking capacity becoming scarcer
+and more expensive, this created extra transportation and productivity costs. Supply chains were disrupted
+in ways none of us had seen previously. We hoped that the major impact from COVID-19 would recede as
+2021 drew to a close, but then omicron reared its head in December, which had worldwide ramifications,
+including impacting people’s ability to work. And then in late February, with Russia’s invasion of Ukraine,
+fuel costs and inflation became bigger issues with which to contend.
+So, 2021 was a crazy and unpredictable year, continuing a trend from 2020. But, I’m proud of the incredible
+commitment and effort from our employees all over the world. I’m not sure any of us would have gotten

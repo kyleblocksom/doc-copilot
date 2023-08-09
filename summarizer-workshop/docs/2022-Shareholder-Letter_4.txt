@@ -1,0 +1,49 @@
+of the Amazon shopping experience for more than a decade. However, unlike physical retailers, Amazon
+can tailor these sponsored products to be relevant to what customers are searching for given what we know
+about shopping behaviors and our very deep investment in machine learning algorithms. This leads to
+advertising that’s more useful for customers; and as a result, performs better for brands. This is part of why
+our Advertising revenue has continued to grow rapidly (23% YoY in Q4 2022, 25% YoY overall for 2022
+on a $31B revenue base), even as most large advertising-focused businesses’ growth have slowed over the last
+several quarters.
+We strive to be the best place for advertisers to build their brands. We have near and long-term opportunities
+that will help us achieve that mission. We’re continuing to make large investments in machine learning to
+keep honing our advertising selection algorithms. For the past couple of years, we’ve invested in building
+comprehensive, flexible, and durable planning and measurement solutions, giving marketers greater insight
+into advertising effectiveness. An example is Amazon Marketing Cloud (“AMC”). AMC is a “clean room”
+(i.e. secure digital environment) in which advertisers can run custom audience and campaign analytics
+across a range of first and third-party inputs, in a privacy-safe manner, to generate advertising and business
+insights to inform their broader marketing and sales strategies. The Advertising and AWS teams have
+collaborated to enable companies to store their data in AWS, operate securely in AMC with Amazon and
+other third-party data sources, perform analytics in AWS, and have the option to activate advertising on
+Amazon or third-party publishers through the Amazon Demand-Side Platform. Customers really like this
+concerted capability. We also see future opportunity to thoughtfully integrate advertising into our video,
+live sports, audio, and grocery products. We’ll continue to work hard to help brands uniquely engage with
+the right audience, and grow this part of our business.
+While it’s tempting in turbulent times only to focus on your existing large businesses, to build a sustainable,
+long-lasting, growing company that helps customers across a large number of dimensions, you can’t stop
+inventing and working on long-term customer experiences that can meaningfully impact customers and
+your company.
+When we look at new investment opportunities, we ask ourselves a few questions:
+◦ If we were successful, could it be big and have a reasonable return on invested capital?
+◦ Is the opportunity being well-served today?
+◦ Do we have a differentiated approach?
+◦ And, do we have competence in that area? And if not, can we acquire it quickly?
+If we like the answers to those questions, then we’ll invest. This process has led to some expansions that
+seem straightforward, and others that some folks might not have initially guessed.
+The earliest example is when we chose to expand from just selling Books, to adding categories like Music,
+Video, Electronics, and Toys. Back then (1998-1999), it wasn’t universally applauded, but in retrospect, it
+seems fairly obvious.
+The same could be said for our international Stores expansion. In 2022, our international consumer segment
+drove $118B of revenue. In our larger, established international consumer businesses, we’re big enough to
+be impacted by the slowing macroeconomic conditions; however, the growth in 2019-2021 on a large base was
+remarkable—30% compound annual growth rate (“CAGR”) in the UK, 26% in Germany, and 21% in
+Japan (excluding the impact of FX). Over the past several years, we’ve invested in new international
+geographies, including India, Brazil, Mexico, Australia, various European countries, the Middle East, and
+parts of Africa. These new countries take a certain amount of fixed investment to get started and to scale, but
+we like the trajectory they’re on, and their growth patterns resemble what we’ve seen in North America
+and our established international geographies. Emerging countries sometimes lack some of the infrastructure
+and services that our business relies on (e.g. payment methods, transportation services, and internet/
+telecom infrastructure). To solve these challenges, we continue to work with various partners to deliver
+solutions for customers. Ultimately, we believe that this investment in serving a broader geographical footprint
+will allow us to help more customers across the world, as well as build a larger free cash flow-generating
+consumer business.
